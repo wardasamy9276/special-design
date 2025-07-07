@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,900;1,300;1,800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tagesschrift&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style sheet link-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <title>special design</title>
+  </head>
+  <body>
+    <!-- start settings box -->
+    <div class="settings-box">
+      <div class="toggle">
+        <i class="fa fa-gear test"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>background color</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#d41876"></li>
+            <li data-color="#00bcd4"></li>
+            <li data-color="#4caf50"></li>
+            <li data-color="#9c27b0"></li>
+          </ul>
+        </div>
+
+        <!------------------------------>
+        <div class="option-box">
+          <div class="cont">
+            <h5>background</h5>
+            <span class="span1-text active" data-background="yes">yes</span>
+            <span class="span2-text" data-background="no">no</span>
+          </div>
+        </div>
+
+        <div class="option-box">
+          <div class="cont">
+            <h5>Bullets</h5>
+            <span class="span1-text active" data-display="show">yes</span>
+            <span class="span2-text" data-display="hide">no</span>
+          </div>
+          <button class="reset-box">reset</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- end settings box -->
+
+    <!--start nav-pullets-->
+
+    <div class="nav-pullets">
+      <div class="pullets" data-section=".about-us">
+        <div class="tooltip">about us</div>
+      </div>
+
+      <div class="pullets" data-section=".skills">
+        <div class="tooltip">My Skills</div>
+      </div>
+      <div class="pullets" data-section=".gallery">
+        <div class="tooltip">My Gallery</div>
+      </div>
+      <div class="pullets" data-section=".features-box">
+        <div class="tooltip">full timeline</div>
+      </div>
+      <div class="pullets" data-section=".testimonials">
+        <div class="tooltip">Our Features</div>
+      </div>
+    </div>
+    <!--and nav-pullets-->
+
+    <!--start landing page-->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">warda samy</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a class="active" href="#">home</a></li>
+              <li><a href="#" data-section=".about-us">about</a></li>
+              <li><a href="#" data-section=".skills">services</a></li>
+              <li><a href="#" data-section=".gallery">portfolio</a></li>
+              <li><a href="#" data-section=".features-box">blog</a></li>
+              <li><a href="#" data-section=".testimonials">contact</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span class="span-toggle"></span>
+              <span class="span-toggle"></span>
+              <span class="span-toggle"></span>
+            </button>
+          </div>
+        </div>
+        <div class="introduction-text">
+          <h1>Warda Samy <span>Frontend Developer</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+            expedita!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--end landing page-->
+
+    <!-- start about us section -->
+
+    <div class="about-us">
+      <div class="info-box">
+        <h3>About Us</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+          voluptatum, cumque, asperiores, incidunt quisquam enim laboriosam
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+          delectus.
+        </p>
+      </div>
+      <div class="image-box">
+        <img src="./img/istockphoto-1251629816-1024x1024.jpg" alt="" />
+      </div>
+    </div>
+    <!-- start skills -->
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-box">
+        <div class="skills-name">HTML</div>
+        <div class="progress">
+          <span data-progress="50%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skills-name">CSS</div>
+        <div class="progress">
+          <span data-progress="60%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skills-name">PHP</div>
+        <div class="progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skills-name">Python</div>
+        <div class="progress">
+          <span data-progress="50%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skills-name">JavaScript</div>
+        <div class="progress">
+          <span data-progress="70%"></span>
+        </div>
+      </div>
+    </div>
+    <!-- end skills -->
+
+    <div class="gallery">
+      <h2>My Gallery</h2>
+      <div class="box-images">
+        <img src="./img/istockphoto-1251629816-1024x1024.jpg" alt="own" />
+        <img src="./img/photo-1699891730676-037bed3c1bed.jpg" alt="tow" />
+        <img src="./img/pexels-sebastiaan9977-1097456.jpg" alt="three" />
+        <img src="./img/pexels-rafael-guajardo-194140-604684.jpg" alt="for" />
+        <img src="./img/pexels-prathsnap-4084375.jpg" alt="" />
+        <img src="./img/pexels-photo-303383.jpeg" alt="" />
+        <img src="./img/pexels-markusspiske-177598.jpg" alt="" />
+        <img src="./img/pexels-davdkuko-17794870.jpg" alt="" />
+        <img src="./img/istockphoto-1251629816-1024x1024.jpg" alt="" />
+        <img
+          src="./img/milky-way-starry-sky-night-sky-star-956981.jpeg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- end gallery -->
+
+    <!--start timeline-->
+    <div class="timeline">
+      <h2>full timeline</h2>
+
+      <div class="time-conte">
+        <div class="year">2024</div>
+        <div class="clearfix"></div>
+      </div>
+      <!--------------------------------------------------------------->
+      <!--------------------------------------------------------------->
+      <!--------------------------------------------------------------->
+      <!--------------------------------------------------------------->
+
+      <div class="left">
+        <div class="content">
+          <h3>timeline</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="year">2190</div>
+
+      <div class="clearfix"></div>
+      <div class="right">
+        <div class="content">
+          <h3>timeline</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit lorem10.
+          </p>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+      <div class="year">2190</div>
+      <div class="right">
+        <div class="content">
+          <h3>timeline</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit lorem10.
+          </p>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="year">2190</div>
+      <div class="left">
+        <div class="content">
+          <h3>timeline</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+      <div class="year">2023</div>
+
+      <div class="left">
+        <div class="content">
+          <h3>timeline</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="year">2190</div>
+    </div>
+
+    <!-- end timeline -->
+
+    <!--Our Features-->
+    <div class="features-box">
+      <h2>Our Features</h2>
+
+      <div class="feat-box">
+        <img src="./img/pexels-sebastiaan9977-1097456.jpg" alt="" />
+
+        <h5>Development</h5>
+        <p>
+          We are professional marketeers, we will do anything you imagine in on
+          time.
+        </p>
+      </div>
+      <div class="feat-box">
+        <img src="./img/pexels-sebastiaan9977-1097456.jpg" alt="" />
+        <h5>Seo</h5>
+        <p>
+          We are professional marketeers, we will do anything you imagine in on
+          time.
+        </p>
+      </div>
+      <div class="feat-box">
+        <img src="./img/pexels-sebastiaan9977-1097456.jpg" alt="" />
+        <h5>Cloud And Servers</h5>
+        <p>
+          We are professional marketeers, we will do anything you imagine in on
+          time.
+        </p>
+      </div>
+      <div class="feat-box">
+        <img src="./img/pexels-photo-303383.jpeg" alt="" />
+        <h5>Databases</h5>
+        <p>
+          We are professional marketeers, we will do anything you imagine in on
+          time.
+        </p>
+      </div>
+      <div class="feat-box">
+        <img src="./img/pexels-davdkuko-17794870.jpg" alt="" />
+        <h5>Hosting</h5>
+        <p>
+          We are professional marketeers, we will do anything you imagine in on
+          time.
+        </p>
+      </div>
+      <div class="feat-box">
+        <img src="./img/pexels-photo-303383.jpeg" alt="" />
+        <h5>Marketing</h5>
+        <p>
+          We are professional marketeers, we will do anything you image ine in
+          on time.
+        </p>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <h1>testimonials</h1>
+      <div class="test-box-div">
+        <div class="test-box">
+          <p>
+            We are professional marketeers, we will do anything you image ine in
+            on time.
+          </p>
+          <div class="person-img">
+            <img src="img/pexels-prathsnap-4084375.jpg" />
+            <div class="text-span">
+              <h3>ahmed ahmed</h3>
+              <span>CEO AT Company</span>
+            </div>
+          </div>
+        </div>
+        <div class="test-box">
+          <p>
+            We are professional marketeers, we will do anything you image ine in
+            on time.
+          </p>
+          <div class="person-img">
+            <img src="img/pexels-prathsnap-4084375.jpg" />
+            <div class="text-span">
+              <h3>ward samy</h3>
+              <span>back and</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="test-box">
+          <p>
+            We are professional marketeers, we will do anything you image ine in
+            on time.
+          </p>
+          <div class="person-img">
+            <img src="img/pexels-prathsnap-4084375.jpg" />
+            <div class="text-span">
+              <h3>warda samy</h3>
+              <span>front and</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------->
+
+    <!--Contact Us Section -->
+    <section class="contact-us" id="contact">
+      <h2>Contact Us</h2>
+
+      <form action="">
+        <div class="form-left">
+          <input type="text" placeholder="your name" name="username" />
+          <input type="text" placeholder="your phone" name="phone" />
+          <input type="email" placeholder="your email" name="email" />
+          <input type="text" placeholder="your subject" name="subject" />
+        </div>
+
+        <div class="form-ight">
+          <textarea name="message" placeholder="your message"></textarea>
+          <input type="submit" value="send" />
+        </div>
+      </form>
+    </section>
+    <!--start footer-->
+    <footer class="footer">warda samy</footer>
+    <!--and footer-->
+
+    <script src="js/all.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
