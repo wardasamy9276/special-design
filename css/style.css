@@ -13,6 +13,9 @@ img {
 
   --secondary-color: #009688;
 }
+body {
+  overflow-x: hidden;
+}
 /*start lading page*/
 .landing-page {
   min-height: 100vh;
@@ -47,6 +50,8 @@ img {
   z-index: 2;
   color: #eeee;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .logo {
   width: 300px;
@@ -86,7 +91,7 @@ li a.active {
   border: none;
   width: 30px;
   background: none;
-  margin-top: 18px;
+  margin: 30px 16px;
   display: none;
   position: relative;
 }
@@ -141,10 +146,9 @@ li a.active {
 
 .introduction-text {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
   color: #eeee;
   text-align: center;
   width: 88%;
@@ -823,6 +827,9 @@ h5::before {
   transform: translateY(-50%);
   width: 50px;
   z-index: 1000;
+  @media (max-width:668px) {
+    display: none;
+  }
 }
 .pullets {
   width: 20px;
